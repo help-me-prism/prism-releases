@@ -21,7 +21,7 @@ macOS Intel(x64)·Apple Silicon(arm64) 버전은 현재 `main` 기준으로 준�
 
 ## 설치
 
-Windows: EXE를 실행합니다. 기본 설치 위치는 `%LOCALAPPDATA%\Programs\Prism`이며 바탕화면 바로가기를 선택할 수 있습니다. 설치가 끝난 뒤 다운로드한 EXE는 삭제해도 됩니다. 이번 베타는 코드 서명이 없어 Windows 경고가 나타날 수 있습니다.
+Windows: EXE를 실행합니다. 기본 설치 위치는 `%LOCALAPPDATA%\Programs\Prism`이며 바탕화면 바로가기를 선택할 수 있습니다. 설치가 끝난 뒤 다운로드한 EXE는 삭제해도 됩니다. 이번 베타는 코드 서명이 없어 Windows 경고가 나타날 수 있습니다. SmartScreen 화면이 나타나면 [Windows 설치 안내](docs/windows-install.md)를 참고하세요.
 
 macOS: 칩에 맞는 DMG를 열고 Prism을 Applications로 복사합니다. 이번 베타는 임시 서명이며 Apple 공증을 받지 않았습니다. 첫 실행이 차단되면 출처를 확인한 뒤 시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기에서 해당 앱을 허용하세요. [Apple 공식 안내](https://support.apple.com/102445)
 
