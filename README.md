@@ -2,16 +2,19 @@
 
 논문 읽기·AI 번역·질문·로컬 노트를 위한 데스크톱 앱입니다.
 
-## 최신 버전: 0.2.0-beta.6
+## 최신 버전: 0.2.0-beta.7
 
-[Windows x64 설치 EXE 다운로드](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.6/Prism-0.2.0-beta.6-Windows-x64.exe)
+[Windows x64 설치 EXE 다운로드](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-Windows-x64.exe)
 
-SHA-256: `392a2dfb54a215f0380add93ab86874e4dabaecc434a82cfd964628b8f5d528a`
+SHA-256: `309f3b63b4e2a576d955eaf1458c87de9ba9ffe6c68a035337be99226c409edb`
 
-macOS Intel(x64)·Apple Silicon(arm64) 버전은 현재 `main` 기준으로 준비 중이며, 빌드가 완료되면 같은 릴리스에 추가됩니다. 이전 버전과 전체 배포 파일은 [Releases](https://github.com/help-me-prism/prism-releases/releases)에서 확인할 수 있습니다.
+이번 beta.7은 Windows x64 설치 파일만 제공합니다. macOS Intel(x64)·Apple Silicon(arm64) 파일은 포함하지 않습니다. 이전 버전과 전체 배포 파일은 [Releases](https://github.com/help-me-prism/prism-releases/releases)에서 확인할 수 있습니다.
 
 ## 변경 내용
 
+- 기본 꺼짐인 선택형 사용 통계를 추가했습니다. 첫 안내 또는 설정 → **사용 통계**에서 참여 여부를 정하고 언제든 끌 수 있습니다.
+- 참여한 설치의 최초 실행, 한국 날짜별 실행 수, 읽기 창에서 열린 논문 횟수와 설치 안에서 중복을 뺀 논문 수를 개발팀만 확인합니다. 논문 제목·본문·경로·대화는 보내지 않습니다.
+- 오프라인에서는 집계를 보관하고 다시 연결되면 재전송하며, 같은 집계를 중복으로 더하지 않습니다.
 - 문장·수식·표·캡처 태그만 넣어도 채팅을 전송할 수 있습니다.
 - 메인 화면에 PDF를 드래그하면 기존 논문 추가 과정으로 가져옵니다.
 - 업데이트 확인과 문제 신고 버튼을 앱 테마에 맞췄습니다.
@@ -29,7 +32,7 @@ macOS: 칩에 맞는 DMG를 열고 Prism을 Applications로 복사합니다. 이
 
 ## 사용 통계
 
-beta.7부터 기본 꺼짐인 선택형 사용 통계를 제공합니다. 참여하면 실행 날짜와 열린 논문 수를 개발팀만 확인하며, 논문 제목·본문·대화는 보내지 않습니다. [수집 항목·보관·참여 해제 안내](docs/usage-privacy.md)를 확인하세요. 현재 공개된 beta.6에는 이 집계 기능이 없습니다.
+beta.7부터 기본 꺼짐인 선택형 사용 통계를 제공합니다. 참여하면 실행 날짜와 열린 논문 수를 개발팀만 확인하며, 논문 제목·본문·대화는 보내지 않습니다. [수집 항목·보관·참여 해제 안내](docs/usage-privacy.md)를 확인하세요. 참여하지 않은 설치와 이전 버전의 사용량은 집계하지 않습니다.
 
 ## 문제 신고
 
