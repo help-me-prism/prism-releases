@@ -8,7 +8,11 @@
 
 SHA-256: `309f3b63b4e2a576d955eaf1458c87de9ba9ffe6c68a035337be99226c409edb`
 
-이번 beta.7은 Windows x64 설치 파일만 제공합니다. macOS Intel(x64)·Apple Silicon(arm64) 파일은 포함하지 않습니다. 이전 버전과 전체 배포 파일은 [Releases](https://github.com/help-me-prism/prism-releases/releases)에서 확인할 수 있습니다.
+[macOS Apple Silicon DMG 다운로드](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-macOS-arm64.dmg)
+
+SHA-256: `5bf4b0ecdbbb75d406ca9cce58872f833818a5c7a2349aa550745f07f3c19298`
+
+이번 beta.7은 Windows x64와 macOS Apple Silicon(arm64) 설치 파일을 제공합니다. Intel Mac용 파일은 포함하지 않습니다. 이전 버전과 전체 배포 파일은 [Releases](https://github.com/help-me-prism/prism-releases/releases)에서 확인할 수 있습니다.
 
 ## 변경 내용
 
@@ -26,7 +30,7 @@ SHA-256: `309f3b63b4e2a576d955eaf1458c87de9ba9ffe6c68a035337be99226c409edb`
 
 Windows: EXE를 실행합니다. 기본 설치 위치는 `%LOCALAPPDATA%\Programs\Prism`이며 바탕화면 바로가기를 선택할 수 있습니다. 설치가 끝난 뒤 다운로드한 EXE는 삭제해도 됩니다. 이번 베타는 코드 서명이 없어 Windows 경고가 나타날 수 있습니다. SmartScreen 화면이 나타나면 [Windows 설치 안내](docs/windows-install.md)를 참고하세요.
 
-macOS: 칩에 맞는 DMG를 열고 Prism을 Applications로 복사합니다. 이번 베타는 임시 서명이며 Apple 공증을 받지 않았습니다. 첫 실행이 차단되면 출처를 확인한 뒤 시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기에서 해당 앱을 허용하세요. [Apple 공식 안내](https://support.apple.com/102445)
+macOS Apple Silicon: DMG를 열고 Prism을 Applications로 복사합니다. 이번 베타는 임시 서명이며 Apple 공증을 받지 않았습니다. 설치 또는 첫 실행이 차단되면 출처를 확인한 뒤 시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기에서 해당 앱을 허용하세요. [Apple 공식 안내](https://support.apple.com/102445)
 
 설정·대화는 사용자 프로필, 논문·노트는 선택한 보관함에 저장됩니다. 앱을 업데이트하거나 제거해도 사용자 데이터와 기존 보관함은 자동으로 삭제되지 않습니다.
 
