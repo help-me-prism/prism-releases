@@ -3,7 +3,7 @@
   "channel": "beta",
   "sourceSha": "9c4fc176cb0d7285569a7bad1f796e4b7e32e03e",
   "lockSha256": "cb35071131048c59993afc238db07855513465353a775e8c464d8368768aa3d2",
-  "notes": "# Prism 0.2.0-beta.7\n\n최근 업데이트: 2026-09-23\n\n## 다운로드\n\n- [Windows x64 설치 파일](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-Windows-x64.exe)\n- [macOS Apple Silicon 설치 파일](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-macOS-arm64.dmg)\n\n## 변경사항\n\n- macOS Apple Silicon 배포 추가\n- 태그를 이용한 질문과 PDF 끌어넣기 지원\n- 선택형 사용 통계 추가\n",
+  "notes": "# Prism 0.2.0-beta.7\n\n최근 업데이트: 2026-09-23\n\n## 다운로드\n\n> **꼭 확인해 주세요! 각 ZIP에는 해당 운영체제의 설치 파일과 「설치 및 실행 가이드」 PDF가 함께 들어 있습니다. ZIP 압축을 푼 뒤, 반드시 가이드를 먼저 확인하고 안내에 따라 설치·실행해 주세요.**\n\n- **[Windows x64 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-Windows-x64-Setup-Guide.zip)** — 설치 EXE + Windows 가이드 PDF\n- **[macOS Apple Silicon 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-macOS-arm64-Setup-Guide.zip)** — 설치 DMG + macOS 가이드 PDF · M 시리즈 Mac용\n\n## 변경사항\n\n- 운영체제별 설치 파일과 설치·실행 가이드를 ZIP으로 제공\n- macOS Apple Silicon 배포 추가\n- 태그를 이용한 질문과 PDF 끌어넣기 지원\n- 선택형 사용 통계 추가\n",
   "url": "https://github.com/help-me-prism/prism-releases/releases/tag/v0.2.0-beta.7",
   "assets": [
     {
