@@ -15,7 +15,6 @@
 - Windows와 동일한 최신 main 기준으로 macOS Apple Silicon DMG 갱신
 - Prism의 AI 대화가 외부 CLI의 기본 대화 기록에 남지 않도록 개선
 - 태그를 이용한 질문과 PDF 끌어넣기 지원
-- 선택형 사용 통계 추가
 
 ## macOS 설치
 
