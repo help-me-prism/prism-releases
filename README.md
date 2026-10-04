@@ -1,20 +1,27 @@
-# Prism 0.2.0-beta.7
+# Prism 0.2.0-beta.8
 
-최근 업데이트: 2026-09-26
+최근 업데이트: 2026-10-04
 
 ## 다운로드
 
 > **꼭 확인해 주세요! 각 ZIP에는 해당 운영체제의 설치 파일과 「설치 및 실행 가이드」 PDF가 함께 들어 있습니다. ZIP 압축을 푼 뒤, 반드시 가이드를 먼저 확인하고 안내에 따라 설치·실행해 주세요.**
 
-- **[Windows x64 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-Windows-x64-Setup-Guide.zip)** — 설치 EXE + Windows 가이드 PDF
-- **[macOS Apple Silicon 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-macOS-arm64-Setup-Guide.zip)** — 설치 DMG + macOS 가이드 PDF · M 시리즈 Mac용
+- **[Windows x64 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.8/Prism-0.2.0-beta.8-Windows-x64-Setup-Guide.zip)** — 설치 EXE + Windows 가이드 PDF
+- **[macOS Apple Silicon 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.7/Prism-0.2.0-beta.7-macOS-arm64-Setup-Guide.zip)** — 이전 버전(0.2.0-beta.7)입니다. 이번 버전의 macOS 설치 파일은 포함하지 않습니다.
 
 ## 변경사항
 
-- 운영체제별 설치 파일과 설치·실행 가이드를 ZIP으로 제공
-- Windows와 동일한 최신 main 기준으로 macOS Apple Silicon DMG 갱신
-- Prism의 AI 대화가 외부 CLI의 기본 대화 기록에 남지 않도록 개선
-- 태그를 이용한 질문과 PDF 끌어넣기 지원
+- PDF만 있는 논문에서 위·아래 첨자(CO₂, 10⁻³, cm⁻¹)와 기호(°, μ, Δ)가 번역문에 살아납니다. 글자 정보가 없는 기호(<, ±, −)는 원문에 인쇄된 모양 그대로 보여 줍니다.
+- 숫자 표현 때문에 번역이 빠지던 문장을 번역합니다. 숫자 확인이 필요한 문장은 점선 밑줄로 표시합니다.
+- 페이지를 넘어가는 문장을 한 문장으로 번역하고, 가리키거나 선택하면 두 페이지의 문장을 함께 표시합니다.
+- 번역 화면 배치를 고쳤습니다. 저자·소속란이 비던 문제, 번역이 페이지 아래로 밀리거나 좁은 폭에 세로로 쌓이던 문제, 그림이 두 번 보이던 문제입니다. 그림 캡션은 번역본을 그림 아래에 보여 줍니다.
+- arXiv·학술지 논문의 문장 속 수식, 첨자, 인용이 번역문에 더 정확히 유지됩니다. 저자-연도 인용이 많은 서론이 번역에서 빠지던 문제를 고쳤습니다.
+- PDF 읽기 화면이 논문 구조를 더 정확하게 나눕니다. 수식·표·그림을 한 번에 선택할 수 있고, 참고문헌과 본문 인용을 연결합니다. 중국어 논문의 문단이 줄마다 끊기던 문제를 고쳤습니다.
+- 번역 모델이 다른 문자를 섞으면 저장하지 않고 다른 모델로 다시 번역합니다.
+- 선택형 사용 통계를 없앴습니다. 앱은 어떤 사용 기록도 개발팀에 보내지 않습니다.
+- 논문 검색에서 인용이 많은 논문과 제목이 일치하는 논문이 앞에 나옵니다. 설정 → AI 연결에 CLI 「업데이트」와 「로그아웃」 버튼을 두었습니다.
+
+기존 설정·대화·논문·노트는 유지됩니다. 이 버전에서는 논문을 처음 열 때 한 번 다시 분석합니다. Windows 코드 서명과 macOS Apple 공증은 제공하지 않습니다.
 
 ## macOS 설치
 
