@@ -11,7 +11,18 @@
       "arch": "x64",
       "sha256": "02973c45e2bd966e41ddc68f7c34456fe84cfa35448a145b3023854a21c64add",
       "size": 125514612,
-      "url": "https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.9/Prism-0.2.0-beta.9-Windows-x64.exe"
+      "url": "https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.9/Prism-0.2.0-beta.9-Windows-x64.exe",
+      "sourceSha": "b68a3f9761a0772be6d6b98eb9d8eda476038b12",
+      "lockSha256": "dc7fa4808955da906146aee9431725339154c137baafe055f40b4b07477fb411"
+    },
+    {
+      "platform": "darwin",
+      "arch": "arm64",
+      "sha256": "013736a9387edf9492275d4b359fb018a14ea7cc2100e8266984bd1dfee6bc68",
+      "size": 146972304,
+      "url": "https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.9/Prism-0.2.0-beta.9-macOS-arm64.dmg",
+      "sourceSha": "b68a3f9761a0772be6d6b98eb9d8eda476038b12",
+      "lockSha256": "f50e2450ef455cce2b0a4a93193b872bd88db69c50d8265d740c363677a06f27"
     }
   ],
   "signing": {
