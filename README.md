@@ -1,21 +1,33 @@
-# Prism 0.2.0-beta.9
+# Prism 0.3.0-beta.1
 
-최근 업데이트: 2026-10-05
+최근 업데이트: 2026-11-15
 
 ## 다운로드
 
 > **꼭 확인해 주세요! 각 ZIP에는 해당 운영체제의 설치 파일과 「설치 및 실행 가이드」 PDF가 함께 들어 있습니다. ZIP 압축을 푼 뒤, 반드시 가이드를 먼저 확인하고 안내에 따라 설치·실행해 주세요.**
 
-- **[Windows x64 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.9/Prism-0.2.0-beta.9-Windows-x64-Setup-Guide.zip)** — 설치 EXE + Windows 가이드 PDF
-- **[macOS Apple Silicon 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.2.0-beta.9/Prism-0.2.0-beta.9-macOS-arm64-Setup-Guide.zip)** — 설치 DMG + macOS 가이드 PDF · M 시리즈 Mac용
+- **[Windows x64 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.3.0-beta.1/Prism-0.3.0-beta.1-Windows-x64-Setup-Guide.zip)** — 설치 EXE + Windows 가이드 PDF
+- **[macOS Apple Silicon 설치·실행 패키지 ZIP](https://github.com/help-me-prism/prism-releases/releases/download/v0.3.0-beta.1/Prism-0.3.0-beta.1-macOS-arm64-Setup-Guide.zip)** — 설치 DMG + macOS 가이드 PDF · M 시리즈 Mac용
 
 ## 변경사항
 
-- Prism 다운로드 사이트를 열었습니다. https://help-me-prism.github.io/ 에서 항상 최신 버전을 받을 수 있습니다.
-- 왼쪽 아래에 공유 버튼(종이비행기)을 두었습니다. 누르면 다운로드 사이트 주소를 복사하고, 사이트를 바로 열 수 있습니다.
-- 새 버전 안내의 「다운로드 페이지」가 GitHub 화면 대신 다운로드 사이트를 엽니다.
+- 논문 안에서 찾기(Ctrl+F): 원문과 한국어 번역을 함께 찾고, 찾은 글자만 칠합니다.
+- PDF 원문을 드래그하면 글자 단위로 선택해 복사·질문에 인용·논문에서 찾기를 할 수 있습니다.
+- 문장을 누르면 나오는 메뉴에서 **쉽게 설명**이 채팅으로 넘어가지 않고 그 자리에서 답합니다. 수식은 **수식 풀어 설명**과 **단계별 유도**를 고를 수 있습니다.
+- 문장이 인용한 문헌을 바로 보고, 참고문헌 위치로 가거나 검색해 보관함에 추가할 수 있습니다.
+- **관련 논문**: 이 논문이 인용한 논문과 이 논문을 인용한 논문을 한 화면에서 보고, 핵심 선행 연구를 먼저 확인한 뒤 한 번에 보관함에 추가합니다.
+- 기록에 남긴 문장이 PDF 위에 색으로 표시됩니다.
+- 논문 노트가 **AI 요약 / 내 기록 / 메모**로 단순해졌습니다. AI 요약에는 원문 쪽 링크가 붙고, 직접 고친 요약은 덮어쓰지 않습니다.
+- 내 노트를 지울 수 있습니다. 바로 되돌리거나 휴지통에서 복원합니다.
+- **개인화**(설정 → 개인화): 나에 대한 지침과 메모리를 저장하면 채팅·요약·구조맵에 반영합니다.
+- Zotero·BibTeX·RIS 내보내기 파일을 PDF와 함께 가져오고, 컬렉션으로 논문을 묶습니다.
+- 논문 목록 검색·정렬, BibTeX 복사, 여러 논문을 한 표로 정리하는 **논문 비교표**를 추가했습니다.
+- 노트 창의 **용어집**에서 번역이 원어로 남긴 전문 용어와 그 정의를 모아 봅니다.
+- 번역 창이 좁으면 문단 재배치 형식으로 자동 전환합니다. 구조맵 시작 화면을 새로 꾸몄습니다.
+- AI 호출을 줄였습니다. 번역은 같은 분량을 약 절반의 호출로 처리하고, 후속 질문에는 이미 보낸 발췌를 다시 보내지 않습니다.
+- 쓰지 않던 개념·주장·관계 노트와 그래프 기능은 정리했습니다. 연결은 `[[링크]]`로 하고 그래프는 Obsidian에서 봅니다.
 
-기존 설정·대화·논문·노트는 유지됩니다. Windows 코드 서명과 macOS Apple 공증은 제공하지 않습니다.
+기존 설정·대화·논문·노트는 유지됩니다. 예전 노트의 자동 정리 구역은 그대로 남지만 더 이상 갱신하지 않습니다. Windows 코드 서명과 macOS Apple 공증은 제공하지 않습니다.
 
 ## macOS 설치
 
